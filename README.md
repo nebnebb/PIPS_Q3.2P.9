@@ -16,7 +16,7 @@ the answer to an exercise of an assignment of the course.
 # returns the answer to exercise 7 of assignment 1.2
 cheat("Q1.2P7")
 ```
-
+Note: strings should be formatted as Q{week}.2P{exercise}. 
 
 
 ## Contact
