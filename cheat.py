@@ -5,10 +5,14 @@
 #
 # Date            Programmers                         Descriptions of Change
 # ====         ================                       ======================
-# 06/29/20      Michael Nunez                             Original code
+# 28-1-2022      Zyneb Al-Hassaan                            Original code
+
 
 def cheat(exercise):
-    """
+    """ Give the answer to the exercise
+
+    This function returns the answers to certain exercises of the course
+    Programming in Psychological Sciences of the University of Amsterdam
 
     Parameters
     ----------
@@ -32,6 +36,10 @@ def cheat(exercise):
     if len(exercise.split()) != 1:
         raise ValueError("Only one exercise as input is allowed")
 
+    if not exercise.startswith("Q"):
+        raise ValueError("All exercises should be formatted like Q{week}.2P."
+                         "{exercise number}")
+
     if exercise == "Q1.2P7":
         print("You can calculate the mean of a vector with nan using "
               "np.nanmean(sample_scores)")
@@ -43,10 +51,8 @@ def cheat(exercise):
         print("To make a boxplot, use plt.boxplot(). To make a violin plot"
               "with jitter, use first sns.violinplot() followed by s"
               "ns.stripplot()")
-    else :
+    else:
         print("Sorry, I do not have the answer to that exercise :(")
-
-
 
 
 

@@ -1,6 +1,6 @@
 # PIPS_Q3_2P_9
 
-PIPS_Q3.2P.9 is a Python library containing the cheat() function.
+PIPS_Q3.2P.9 is a repository containing the cheat() function.
 
 ## About the Project
 
@@ -13,6 +13,9 @@ the answer to an exercise of an assignment of the course.
 
 ## Usage
 ```python
+# load function
+from .cheat import cheat
+
 # returns the answer to exercise 7 of assignment 1.2
 cheat("Q1.2P7")
 ```
