@@ -53,11 +53,3 @@ def cheat(exercise):
               "ns.stripplot()")
     else:
         print("Sorry, I do not have the answer to that exercise :(")
-
-
-
-
-
-
-
-

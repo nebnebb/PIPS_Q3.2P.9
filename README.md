@@ -14,7 +14,8 @@ the answer to an exercise of an assignment of the course.
 ## Usage
 ```python
 # load function
-from .cheat import cheat
+# Make sure that cheat is in the same directory as your script
+from cheat.cheat import cheat
 
 # returns the answer to exercise 7 of assignment 1.2
 cheat("Q1.2P7")
